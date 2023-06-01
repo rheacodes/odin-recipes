@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(252, 253, 245);
     color: var(--dk-green);
 }
 
@@ -48,7 +48,7 @@ img {
     width: 500px;
     height: auto;
     border-radius: 50%;
-    border-color: green;
+    border-color: var(--lt-green);
     border-width: 5px;
     border-style: dotted;
 }
