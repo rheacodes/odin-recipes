@@ -44,6 +44,10 @@ ol {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ul {
+    padding-left: 0;
+}
+
 img {
     width: 500px;
     height: auto;
