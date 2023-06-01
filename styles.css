@@ -68,6 +68,12 @@ img {
     margin: auto;
 }
 
+.home-title > h1 {
+    font-size: 5em;
+    padding-bottom: 0.1em;
+    border-bottom: 8px dashed;
+}
+
 .recipe-grid {
     margin: auto;
     text-align: center;
@@ -97,6 +103,11 @@ img {
 .rcp-steps {
     text-align: center;
     margin: 3rem auto;
+}
+
+.rcp-title > h1 {
+    font-size: 2.5em;
+    padding-bottom: 0.15em;
 }
 
 .rcp-img > img {
