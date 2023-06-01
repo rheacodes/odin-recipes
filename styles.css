@@ -1,16 +1,41 @@
+:root {
+    --lt-green: rgb(41, 173, 41);
+    --dk-green: rgb(0, 77, 0);
+    --glow-green: rgb(145, 243, 145);
+}
+
 body {
     background-color: whitesmoke;
-    color: rgb(0, 77, 0);
+    color: var(--dk-green);
 }
 
 h1,
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(41, 173, 41);
+    color: var(--lt-green);
 }
 
 h1 {
-    border-bottom: 5px dashed rgb(41, 173, 41);
+    border-bottom: 5px dashed var(--lt-green);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--lt-green);
+}
+
+a:link {
+    color: var(--lt-green);
+}
+
+a:visited {
+    color: var(--lt-green);
+}
+
+a:hover {
+    color: var(--glow-green);
+    text-decoration: underline;
 }
 
 p,
