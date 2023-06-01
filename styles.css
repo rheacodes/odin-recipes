@@ -85,3 +85,37 @@ img {
     border-style: solid;
     object-fit: cover;
 }
+
+/*   RECIPE PAGE STYLING   */
+
+.rcp-title,
+.rcp-description,
+.rcp-ingredients,
+.rcp-steps {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.rcp-img > img {
+    display: block;
+    margin: auto;
+}
+
+.rcp-description > p {
+    max-width: 60ch;
+    margin: auto;
+}
+
+.rcp-ingredients > ul > li {
+    margin: 0.4em auto;
+}
+
+.rcp-steps > ol {
+    max-width: 70ch;
+    margin: auto;
+    text-align: justify;
+}
+
+ol > li {
+    margin: 0.75em auto;
+}
