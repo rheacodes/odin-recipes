@@ -36,12 +36,14 @@ img {
 
 .recipe-grid {
     margin: auto;
+    text-align: center;
 }
 
 .recipe-link {
+    display: inline-block;
     list-style-type: none;
     max-width: 300px;
     margin: auto;
     text-align: center;
-    padding: 0px;
+    padding: 20px;
 }
