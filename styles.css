@@ -27,3 +27,21 @@ img {
     border-width: 5px;
     border-style: dotted;
 }
+
+.home-title {
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+.recipe-grid {
+    margin: auto;
+}
+
+.recipe-link {
+    list-style-type: none;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+}
