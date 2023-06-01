@@ -72,3 +72,12 @@ img {
     text-align: center;
     padding: 20px;
 }
+
+.link-img {
+    display: block;
+    max-width: 200px;
+    height: 150px;
+    margin: 0.5em;
+    border-style: solid;
+    object-fit: cover;
+}
